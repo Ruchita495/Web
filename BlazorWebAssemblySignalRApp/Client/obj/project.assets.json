@@ -88,6 +88,57 @@
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Connections.Abstractions/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Client/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Common": "5.0.17",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Common/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "5.0.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Metadata/5.0.17": {
         "type": "package",
         "compile": {
@@ -95,6 +146,60 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Metadata.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Client": "5.0.17",
+          "Microsoft.AspNetCore.SignalR.Client.Core": "5.0.17"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client.Core/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "5.0.17",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "5.0.17",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "System.Threading.Channels": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Common/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "5.0.17",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Common.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "5.0.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/5.0.0": {
@@ -258,7 +363,7 @@
           "lib/net5.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/5.0.0": {
+      "Microsoft.Extensions.Primitives/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
@@ -304,6 +409,15 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
+      "System.Threading.Channels/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
       },
       "BlazorWebAssemblySignalRApp.Shared/1.0.0": {
@@ -404,6 +518,57 @@
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Connections.Abstractions/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Client/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Common": "5.0.17",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Common/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "5.0.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Metadata/5.0.17": {
         "type": "package",
         "compile": {
@@ -411,6 +576,60 @@
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Metadata.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Client": "5.0.17",
+          "Microsoft.AspNetCore.SignalR.Client.Core": "5.0.17"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client.Core/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "5.0.17",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "5.0.17",
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "System.Threading.Channels": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Common/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "5.0.17",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Common.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "5.0.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/5.0.0": {
@@ -574,7 +793,7 @@
           "lib/net5.0/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/5.0.0": {
+      "Microsoft.Extensions.Primitives/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
@@ -620,6 +839,15 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
+        }
+      },
+      "System.Threading.Channels/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
       },
       "BlazorWebAssemblySignalRApp.Shared/1.0.0": {
@@ -767,6 +995,84 @@
         "tools/x86/aspnetcorev2_inprocess.dll"
       ]
     },
+    "Microsoft.AspNetCore.Connections.Abstractions/5.0.17": {
+      "sha512": "t1f5AqurRUnY2jiqC/ds4ej4+osr5WUtGoNdWXED0lTSvaJ/vo3XqHaY8HZ4Esov0LiaOGsfRQfvH9NPDKN1Tw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.connections.abstractions/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "lib/net461/Microsoft.AspNetCore.Connections.Abstractions.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.AspNetCore.Connections.Abstractions.xml",
+        "microsoft.aspnetcore.connections.abstractions.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.connections.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Connections.Client/5.0.17": {
+      "sha512": "H/VPhWJycj+grO6wmHFhuKzmkJ3Xz1WgOEoZZudL2TcdUzFmqHPGnvZdz4KM2jTy2btKFjNINjWTGGpsrOjfSQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.connections.client/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Connections.Client.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.xml",
+        "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.xml",
+        "microsoft.aspnetcore.http.connections.client.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.connections.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Connections.Common/5.0.17": {
+      "sha512": "05hOZUVbA5xjpCqTfZH+q9XoYU8BIOGld7NY7sVBYQBB7aG/zVh+shqDhqGkxkAfMRcdeTg88tzqf0JLmETWLA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.connections.common/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Connections.Common.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
+        "microsoft.aspnetcore.http.connections.common.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.connections.common.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Metadata/5.0.17": {
       "sha512": "JnxFpuo9Niv5Y5f+F5PJ2++FT1hAMsh+VmpVGJrDV9KcDzYlBoQWnNQ9QOPK7vneZ90r8jRdOpYvrj7jMSHhVQ==",
       "type": "package",
@@ -784,6 +1090,80 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
         "microsoft.aspnetcore.metadata.5.0.17.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Client/5.0.17": {
+      "sha512": "vh8QRMkNFlqvGDK860vaQH35qFCXdReAPRQ6ehYpvz+06rM5kxkMHTsNwOc5C2vhzCir0hLC1jbByUNxTq6i3w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.signalr.client/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Client.dll",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Client.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.xml",
+        "microsoft.aspnetcore.signalr.client.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Client.Core/5.0.17": {
+      "sha512": "1mi+8RkFkYu1tb86MwRpxz6Lu4CB2PgYQC+Sq0V/F4G6ZUJD7V/Wih/JTJl4MJCAbI8O8Hfh4JzFJqSIzWkWJw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.signalr.client.core/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Client.Core.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.xml",
+        "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.xml",
+        "microsoft.aspnetcore.signalr.client.core.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.client.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Common/5.0.17": {
+      "sha512": "nGqg6RGhks7rePxUzh9RPRprh1vfA/8bSqaTteROvfezHBpRfUJInZddXOgJGPwW55e/VApHLNHAZAtJgGPEjQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.signalr.common/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Common.dll",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Common.xml",
+        "lib/net5.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "lib/net5.0/Microsoft.AspNetCore.SignalR.Common.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.xml",
+        "microsoft.aspnetcore.signalr.common.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.common.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Protocols.Json/5.0.17": {
+      "sha512": "LIWTD5mcTnVyOvkW0mce/BA4x+WDlrOsRTwH3hUZPpRrgNvhc+EidHSAPSMt4EuJKshUzuaxrYI692QVCYpl1w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.signalr.protocols.json/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "lib/net461/Microsoft.AspNetCore.SignalR.Protocols.Json.xml",
+        "lib/net5.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "lib/net5.0/Microsoft.AspNetCore.SignalR.Protocols.Json.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.xml",
+        "microsoft.aspnetcore.signalr.protocols.json.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.signalr.protocols.json.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/5.0.0": {
@@ -1056,10 +1436,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/5.0.0": {
-      "sha512": "cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+    "Microsoft.Extensions.Primitives/5.0.1": {
+      "sha512": "5WPSmL4YeP7eW+Vc8XZ4DwjYWBAiSwDV9Hm63JJWcz1Ie3Xjv4KuJXzgCstj48LkLfVCYa7mLcx7y+q6yqVvtw==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/5.0.0",
+      "path": "microsoft.extensions.primitives/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1072,7 +1452,7 @@
         "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.5.0.1.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1156,6 +1536,32 @@
         "version.txt"
       ]
     },
+    "System.Threading.Channels/5.0.0": {
+      "sha512": "RLBIxntLaG9pRmmuVDwY1kc8Bvp/FQzSxPU+19VekkScKkWtVP9r8bLhm28ama3usc816UBrmkg3vv3jUea/hw==",
+      "type": "package",
+      "path": "system.threading.channels/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
+        "lib/netstandard1.3/System.Threading.Channels.dll",
+        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.5.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "BlazorWebAssemblySignalRApp.Shared/1.0.0": {
       "type": "project",
       "path": "../Shared/BlazorWebAssemblySignalRApp.Shared.csproj",
@@ -1167,6 +1573,7 @@
       "BlazorWebAssemblySignalRApp.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.17",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.17",
+      "Microsoft.AspNetCore.SignalR.Client >= 5.*",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
@@ -1176,11 +1583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj",
+      "projectUniqueName": "C:\\Users\\W0795499\\Documents\\GitHub\\web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj",
       "projectName": "BlazorWebAssemblySignalRApp.Client",
-      "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj",
+      "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj",
       "packagesPath": "C:\\Users\\W0795499\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Client\\obj\\",
+      "outputPath": "C:\\Users\\W0795499\\Documents\\GitHub\\web\\BlazorWebAssemblySignalRApp\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\W0795499\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1197,8 +1604,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj"
+            "C:\\Users\\W0795499\\Documents\\GitHub\\web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj"
             }
           }
         }
@@ -1221,6 +1628,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.17, )"
+          },
+          "Microsoft.AspNetCore.SignalR.Client": {
+            "target": "Package",
+            "version": "[5.*, )"
           },
           "System.Net.Http.Json": {
             "target": "Package",
