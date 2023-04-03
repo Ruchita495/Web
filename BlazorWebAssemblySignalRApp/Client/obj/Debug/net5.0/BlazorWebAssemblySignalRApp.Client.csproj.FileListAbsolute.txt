@@ -620,8 +620,6 @@ C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\De
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\MJMx1b2c.gz
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\VJ4mCS3u.gz
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\OMiA2Ndz.gz
-C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\BGjmknoE.gz
-C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\jbYEoGye.gz
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\staticwebassets\BlazorWebAssemblySignalRApp.Client.StaticWebAssets.Manifest.cache
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\staticwebassets\BlazorWebAssemblySignalRApp.Client.StaticWebAssets.xml
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
@@ -658,3 +656,5 @@ C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\De
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\E3pJ3Lb6.gz
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\upIDN1Cy.gz
 C:\Users\W0795499\Documents\GitHub\web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\pYLU0IqN.gz
+C:\Users\W0795499\Documents\GitHub\Web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\WOOg1li9.gz
+C:\Users\W0795499\Documents\GitHub\Web\BlazorWebAssemblySignalRApp\Client\obj\Debug\net5.0\build-gz\BIM7VGC2.gz
