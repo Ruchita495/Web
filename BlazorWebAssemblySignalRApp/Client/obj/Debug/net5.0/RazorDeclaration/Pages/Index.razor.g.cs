@@ -98,12 +98,13 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\W0795499\Desktop\Mywebapp\Web\BlazorWebAssemblySignalRApp\Client\Pages\Index.razor"
+#line 31 "C:\Users\W0795499\Desktop\Mywebapp\Web\BlazorWebAssemblySignalRApp\Client\Pages\Index.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
+    private string userPing;
 
     protected override async Task OnInitializedAsync()
     {
@@ -118,6 +119,13 @@ using Microsoft.AspNetCore.SignalR.Client;
             StateHasChanged();
         });
 
+         hubConnection.On<string>("Pingusers", (user) =>
+        {
+            var encodedMsg = $"{user}: has ping to other";
+            userPing = encodedMsg;
+            StateHasChanged();
+        });
+
         await hubConnection.StartAsync();
     }
 
@@ -126,6 +134,12 @@ using Microsoft.AspNetCore.SignalR.Client;
 
     async Task SendToCaller() =>
         await hubConnection.SendAsync("SendToMe", userInput, messageInput);
+
+    async Task SendToOthers() =>
+        await hubConnection.SendAsync("SendToOthers", userInput, messageInput);
+
+    async Task SendPingToOthers() =>
+        await hubConnection.SendAsync("SendPingToOthers", userInput);
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;

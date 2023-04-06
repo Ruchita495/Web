@@ -11,6 +11,17 @@ namespace BlazorWebAssemblySignalRApp.Server.Hubs
 
      public async Task SendToMe(string user, string message)
     {
-        await Clients.Caller.SendAsync("ReceiveMessage", user, message);}
+        await Clients.Caller.SendAsync("ReceiveMessage", user, message);
+    }
+
+    public async Task SendToOthers(string user, string message)
+    {
+        await Clients.Others.SendAsync("ReceiveMessage", user, message);
+    }
+
+    public async Task SendPingToOthers(string user)
+    {
+        await Clients.Others.SendAsync("Pingusers", user);
+    }
     }
 }
