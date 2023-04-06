@@ -1172,11 +1172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Server\\BlazorWebAssemblySignalRApp.Server.csproj",
+      "projectUniqueName": "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Server\\BlazorWebAssemblySignalRApp.Server.csproj",
       "projectName": "BlazorWebAssemblySignalRApp.Server",
-      "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Server\\BlazorWebAssemblySignalRApp.Server.csproj",
+      "projectPath": "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Server\\BlazorWebAssemblySignalRApp.Server.csproj",
       "packagesPath": "C:\\Users\\W0795499\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Server\\obj\\",
+      "outputPath": "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\W0795499\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1193,11 +1193,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj": {
-              "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj"
+            "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj": {
+              "projectPath": "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Client\\BlazorWebAssemblySignalRApp.Client.csproj"
             },
-            "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\W0795499\\Documents\\GitHub\\Web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj"
+            "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\W0795499\\Desktop\\Mywebapp\\Web\\BlazorWebAssemblySignalRApp\\Shared\\BlazorWebAssemblySignalRApp.Shared.csproj"
             }
           }
         }

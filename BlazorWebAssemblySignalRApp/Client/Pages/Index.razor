@@ -16,6 +16,7 @@
     </label>
 </div>
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+<button @onclick="SendToCaller" disabled="@(!IsConnected)">Send To Me</button>
 
 <hr>
 
@@ -50,6 +51,9 @@
 
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+
+    async Task SendToCaller() =>
+        await hubConnection.SendAsync("SendToMe", userInput, messageInput);
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
